@@ -1,8 +1,8 @@
 # Struct
 1. cl_adapter, get the Synth data and transfer data to chainlink node. 
-2. chainlink_job_spec, the job config in Chainlink node for get the data of rank 1~5.
+2. chainlink_job_spec, the job config in Chainlink node for getting the data of rank 1~5.
 3. oracle_contract, the oracle contract of chainlink node.
-4. client_contract, send the request and geth the data of rank 1~5 of Synth from chainlink node.
+4. client_contract, send the request and get the data of rank 1~5 of Synth from chainlink node.
 
 # What we do?
 We build a chainlink node on Ethereum Rinkeby testnet.
