@@ -5,7 +5,6 @@
 4. client_contract, send the request and geth the data of rank 1~5 of Synth from chainlink node.
 
 # What we do?
-
 We build a chainlink node on Ethereum Rinkeby testnet.
   Oracle Contract: 0x3D4e6c7D1de34BfF3e15F586D2a88f5BB844CF32
   Client Contract: 0x778307ECA558a33AbA4d85AD2cd0fefcC315fbDC
