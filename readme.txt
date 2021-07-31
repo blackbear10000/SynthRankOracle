@@ -1,10 +1,10 @@
-#Struct
+# Struct
 1. cl_adapter, get the Synth data and transfer data to chainlink node. 
 2. chainlink_job_spec, the job config in Chainlink node for get the data of rank 1~5.
 3. oracle_contract, the oracle contract of chainlink node.
 4. client_contract, send the request and geth the data of rank 1~5 of Synth from chainlink node.
 
-#What we do?
+# What we do?
 
 We build a chainlink node on Ethereum Rinkeby testnet.
   Oracle Contract: 0x3D4e6c7D1de34BfF3e15F586D2a88f5BB844CF32
@@ -25,5 +25,6 @@ We can use tool to get the readable string
   HEX format result: 0x734254432031332e353300000000000000000000000000000000000000000000
   Readable string: sBTC 13.53
   
-Website can get the result from Client Contract: 0x778307ECA558a33AbA4d85AD2cd0fefcC315fbDC.
-  Variables: rank0, rank1, rank2, rank3, rank4 (the data of first rank 5)
+# How to use?
+1. Send a request by Client Contract to chainlink node.
+2. Website can get the result from Client Contract - the data of first rank 5: rank0, rank1, rank2, rank3, rank4.
